@@ -33,6 +33,8 @@ public abstract class WebConstants {
 
     public final static String UTF8 = "UTF-8";
 
+    public static final String APPLICATION_JSON = "application/json";
+
     /**
      * 默认超时时间：3秒
      */
