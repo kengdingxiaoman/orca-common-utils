@@ -100,7 +100,7 @@ public class HttpClientUtils {
             return httpclient.execute(httpPost, responseHandler);
         } catch(Exception ex) {
             logger.error("请求发生发生异常", ex);
-            throw new RuntimeException("Get请求发生系统异常");
+            throw new RuntimeException("Post请求发生系统异常");
         } finally {
             try{
                 httpclient.close();
@@ -144,7 +144,7 @@ public class HttpClientUtils {
             return httpclient.execute(httpPost, responseHandler);
         } catch(Exception ex) {
             logger.error("请求发生发生异常", ex);
-            throw new RuntimeException("Get请求发生系统异常");
+            throw new RuntimeException("Post请求发生系统异常");
         } finally {
             try{
                 httpclient.close();
@@ -188,7 +188,7 @@ public class HttpClientUtils {
             return httpclient.execute(httpPost, responseHandler);
         } catch(Exception ex) {
             logger.error("请求发生发生异常", ex);
-            throw new RuntimeException("Get请求发生系统异常");
+            throw new RuntimeException("Post请求发生系统异常");
         } finally {
             try{
                 httpclient.close();
