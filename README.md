@@ -51,3 +51,61 @@ Money("10.5")和new Money("10.50")应该是相等的。
 | - | - |
 | ByteArrayBuffer| 仿照 org.apache.http.util.ByteArrayBuffer 对byte的append操作进行封装，操作字节的拼接可以方便很多|
 | ByteUtils| byte[]和String的各种转换|
+
+## convert
+
+金额, 日期, json, xml的转换
+
+| 类 | 说明 |
+| - | - |
+| CurrencyUtils| 金额的相关转换|
+| DateUtils| 日期工具，功能很全|
+| JsonUtils| json转换，支持多种策略|
+| XmlConvertUtils| xml转换|
+
+## file
+
+和文件操作有关的工具
+
+| 类 | 说明 |
+| - | - |
+| FileUtils| 生成文件，读取文件|
+| PullFileByFtpUtils| 从FTP获取文件|
+| UncompressionFileUtils| 解压文件|
+
+## improve
+
+用了第三方工具类但还不够，就有一些更进一步的方法需求
+
+| 类 | 说明 |
+| - | - |
+| OrcaStringUtils| 和String有关的工具，方法功能会定制一些|
+| RandomGenerator| 生成各种随机值，整数，数字字母混合等等|
+
+## regex
+
+和正则表达式相关的工具类
+
+| 类 | 说明 |
+| - | - |
+| RegexUtils| 各种使用正则表达式的判断，例如手机号，邮箱等|
+
+## server
+
+HttpClient的具体实现
+
+| 类 | 说明 |
+| - | - |
+| HttpClientUtils| 支持Get请求，POST请求，Https请求|
+
+## validate
+
+一般用来校验参数常规属性
+
+| 类 | 说明 |
+| - | - |
+| ValidateUtils| 校验参数常规属性：长度，是否必填等|
+
+## CommonUtils
+
+定义通用的工具类
