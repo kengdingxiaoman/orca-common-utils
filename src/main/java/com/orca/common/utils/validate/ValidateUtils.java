@@ -71,4 +71,13 @@ public abstract class ValidateUtils {
 
         return str.getBytes().length == maxLength;
     }
+
+    /**
+     * Long对象是否有值且大于0
+     * @param value
+     * @return
+     */
+    public static boolean hasValueAndBiggerThanZero(Long value) {
+        return value != null && value > 0;
+    }
 }
