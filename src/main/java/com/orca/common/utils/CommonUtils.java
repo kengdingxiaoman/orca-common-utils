@@ -193,19 +193,4 @@ public abstract class CommonUtils {
         }
         return StringUtils.removeEnd(condition.toString(), CharConstants.COMMA);
     }
-
-    public static boolean isOnlyOneElement(List list) {
-        if (CollectionUtils.isEmpty(list)) {
-            return false;
-        }
-        return list.size() == 1;
-    }
-
-    public static Object geFirstElement(List list) {
-        if (CollectionUtils.isEmpty(list)) {
-            return null;
-        }
-
-        return list.get(0);
-    }
 }
